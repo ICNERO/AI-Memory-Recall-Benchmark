@@ -1,0 +1,36 @@
+{
+  "API_calls": 0,
+  "actual_predictions": 3000,
+  "cache": "round term counts precomputed; legal pools cached; no query result or Gold cache",
+  "candidate_scope": "all allowed frames before query time",
+  "cold_indexing_in_query_latency": false,
+  "external_model": "none",
+  "inputs_sha256": {
+    "histories.jsonl": "58cd6b1f4f37efb1b68f8118956d4f8eecc6bbf10ec269e102f5baf0d6f69853",
+    "queries.jsonl": "ba4b1ea96d0ac88cf3d89c892209d2acbd418a421545f9025c07becd0f81049f",
+    "rounds.jsonl": "10387d755c8ada1693e560f30da6ba8883b71db94bf64fb3a25d918284a1a9c4"
+  },
+  "measurement": "one actual in-process call/query/method; not network or five independent repetitions",
+  "methods": {
+    "bm25": 500,
+    "bm25_first_frame": 500,
+    "earliest": 500,
+    "latest": 500,
+    "random": 500,
+    "tfidf": 500
+  },
+  "parameters": {
+    "bm25_b": 0.75,
+    "bm25_k1": 1.2,
+    "terms": "Unicode word characters concatenated; overlapping character bigrams"
+  },
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "query_source": "current_context plus current query",
+  "read_isolation": "runner code reads only three files in supplied Public; no OS sandbox asserted",
+  "round_cap": null,
+  "seed": 20261019,
+  "token_budget": null,
+  "total_construction_cost": null,
+  "total_runner_seconds": 6.342811998999878
+}

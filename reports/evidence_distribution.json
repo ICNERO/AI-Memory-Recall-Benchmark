@@ -1,0 +1,30 @@
+{
+  "history_pool_rounds": {
+    "max": 40,
+    "median": 19.0,
+    "min": 9
+  },
+  "legacy_content_type_counts": {
+    "T01": 14,
+    "T02": 44,
+    "T03": 59,
+    "T04": 34,
+    "T05": 16,
+    "T06": 59,
+    "T07": 83,
+    "T08": 63,
+    "T09": 32,
+    "T10": 96
+  },
+  "minimum_frame_distribution": {
+    "1": 486,
+    "2": 10
+  },
+  "minimum_round_distribution": {
+    "1": 439,
+    "2": 55,
+    "3": 2
+  },
+  "normal_retrieval_queries": 496,
+  "round_definition": "one user message plus one assistant reply; not individual message"
+}

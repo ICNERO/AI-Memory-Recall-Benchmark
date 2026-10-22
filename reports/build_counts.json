@@ -1,0 +1,32 @@
+{
+  "abstain_requested_field_missing": 1,
+  "all_new_semantic_alternatives_exhaustively_verified": false,
+  "clarify": 3,
+  "count_basis": "current independently persisted 500-row authoring TSV, not addition of past claims",
+  "current_context_supplied": 10,
+  "evidence_units": 2636,
+  "fuzzy_reference": 243,
+  "gold_author_records": 500,
+  "histories": 500,
+  "history_text_modified": false,
+  "implicit_structure": 257,
+  "integrity_checks": "parent hashes,500 keys,unique IDs,changed query text,raw spans,source hashes,scope,time,unit cover/minimality,split counts passed",
+  "messages": 1808,
+  "new_independent_content_reviews": 0,
+  "previous_claimed_280_file_recovered": false,
+  "remaining_parent_queries": 0,
+  "retrieve": 496,
+  "rewritten_queries": 500,
+  "rounds": 904,
+  "source_claims": 1841,
+  "source_spans": 3109,
+  "split_queries": {
+    "dev": 100,
+    "test": 100,
+    "train": 300
+  },
+  "sufficient_sets": 5084,
+  "unit_deletion_checks": 52354,
+  "unmodified_parent_queries_in_core": 0,
+  "version": "R2-v0.5.2-author-reconstruction"
+}

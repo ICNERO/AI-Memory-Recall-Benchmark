@@ -1,0 +1,23 @@
+{
+  "dataset_id": "ALFU-ThoughtRecallBench-R2",
+  "evidence_units": 2636,
+  "expected_behavior_counts": {
+    "ABSTAIN": 1,
+    "CLARIFY": 3,
+    "RETRIEVE": 496
+  },
+  "gold_records": 500,
+  "history_frames": 500,
+  "new_independent_semantic_reviews": 0,
+  "positive_evidence_spans": 3109,
+  "public_gold_reference_sha256": "c592213c8d5144cf26cd88eb543f119c4691c944ac4237df6fcaa9987eaf607c",
+  "public_release_repo": "AI-Memory-Recall-Benchmark",
+  "published_author_gold": true,
+  "query_count": 500,
+  "recall_family_counts": {
+    "fuzzy_reference": 243,
+    "implicit_structure": 257
+  },
+  "semantic_alternative_path_exhaustiveness": "not_certified",
+  "sufficient_sets": 5084
+}

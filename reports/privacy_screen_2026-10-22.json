@@ -1,0 +1,345 @@
+{
+  "scope": "Regex screening of Public, Gold and source records; not comprehensive PII review. Bibliographic author names and public URLs retained. Numeric matches inside URLs are source identifiers.",
+  "files": [
+    {
+      "file": "public/METRICS.md",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "public/PROTOCOL.md",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "public/histories.jsonl",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 22,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "public/queries.jsonl",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "public/rounds.jsonl",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "public/serialize.py",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "gold/README.md",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "gold/evidence_positions.jsonl",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "gold/gold.jsonl",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "gold/gold_summary.json",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "gold/queries_and_gold_review.md",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "gold/query_scope_status.jsonl",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "gold/revision_records.jsonl",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "gold/splits.json",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "sources/README.md",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "sources/method_sources.json",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "sources/method_sources.md",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "sources/source_mapping.jsonl",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 30,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "sources/sources.jsonl",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 4,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    },
+    {
+      "file": "sources/topic_seeds.jsonl",
+      "pattern_hits": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      },
+      "outside_urls": {
+        "email": 0,
+        "china_mobile": 0,
+        "id_card": 0,
+        "private_key": 0,
+        "credential": 0
+      }
+    }
+  ]
+}

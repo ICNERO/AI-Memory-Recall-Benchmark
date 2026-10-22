@@ -1,0 +1,18 @@
+{
+  "environments": 50,
+  "identical_new_query_text_duplicate_groups": 0,
+  "new_independent_semantic_leakage_reviews": 0,
+  "private_answer_fields_in_public_queries": [],
+  "public_top_fields": [
+    "allowed_frame_ids",
+    "current_context",
+    "environment_id",
+    "query_at",
+    "query_id",
+    "query_text",
+    "query_timezone"
+  ],
+  "semantic_paraphrase_leakage": "not_exhaustively_verified",
+  "source_titles_and_answers_available_to_baselines": false,
+  "split_environment_overlap": 0
+}

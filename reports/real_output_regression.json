@@ -1,0 +1,9 @@
+{
+  "character_set_reference_cases": 496,
+  "errors": [],
+  "id_independent_serialization_cases": 496,
+  "passed": true,
+  "positive_first_registered_paths": 496,
+  "quality_fields_per_case": 6,
+  "scope": "independent algorithmic crosscheck; no independent semantic review"
+}

@@ -1,0 +1,61 @@
+{
+  "recorded_predictions": 3000,
+  "all_equal": true,
+  "scope": "Recorded-output replay; not new timing or independent semantic review",
+  "checks": [
+    {
+      "method": "random",
+      "files": {
+        "per_query.jsonl": true,
+        "failures.jsonl": true,
+        "excluded_queries.jsonl": true,
+        "summary.json_normalized": true
+      }
+    },
+    {
+      "method": "earliest",
+      "files": {
+        "per_query.jsonl": true,
+        "failures.jsonl": true,
+        "excluded_queries.jsonl": true,
+        "summary.json_normalized": true
+      }
+    },
+    {
+      "method": "latest",
+      "files": {
+        "per_query.jsonl": true,
+        "failures.jsonl": true,
+        "excluded_queries.jsonl": true,
+        "summary.json_normalized": true
+      }
+    },
+    {
+      "method": "bm25",
+      "files": {
+        "per_query.jsonl": true,
+        "failures.jsonl": true,
+        "excluded_queries.jsonl": true,
+        "summary.json_normalized": true
+      }
+    },
+    {
+      "method": "tfidf",
+      "files": {
+        "per_query.jsonl": true,
+        "failures.jsonl": true,
+        "excluded_queries.jsonl": true,
+        "summary.json_normalized": true
+      }
+    },
+    {
+      "method": "bm25_first_frame",
+      "files": {
+        "per_query.jsonl": true,
+        "failures.jsonl": true,
+        "excluded_queries.jsonl": true,
+        "summary.json_normalized": true
+      }
+    }
+  ]
+}

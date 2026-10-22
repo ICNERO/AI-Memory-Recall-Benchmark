@@ -1,0 +1,22 @@
+{
+  "dataset": "ALFU-ThoughtRecallBench-R2",
+  "published_material": "public histories and queries, full author Gold and exact evidence positions, scorer and baselines",
+  "version": "0.5.2",
+  "public_source_zip_sha256": "f616640010a95133c43f8b264edc966437188cd80040b2422bbac392252b28ec",
+  "original_full_zip_sha256": "ff462854ae5f2fd99455e4b8abf47eebfa0aaede1ba7276adce07449286a59c0",
+  "queries": 500,
+  "history_frames": 500,
+  "rounds": 904,
+  "authorship": "author-reconstructed; no new independent semantic reviews",
+  "license_status": "MIT for project-owner original material; third-party terms retained",
+  "github_repository_slug": "AI-Memory-Recall-Benchmark",
+  "public_gold_included": true,
+  "published_gold_file": "gold/gold.jsonl",
+  "published_positions_file": "gold/evidence_positions.jsonl",
+  "public_gold_sha256": "c592213c8d5144cf26cd88eb543f119c4691c944ac4237df6fcaa9987eaf607c",
+  "gold_quality_scope": "author reconstructed; independent semantic exhaustiveness not certified",
+  "publication_date": "2026-10-22",
+  "github_repository": "https://github.com/ICNERO/AI-Memory-Recall-Benchmark",
+  "publication_changes": "Restored original baselines, scores and provenance; clarified documentation; frozen data unchanged",
+  "open_gold_package_sha256": "3d05e0da88c6e25db44bdf990ffe51ea4a3f218dedfd64af851d01e9afb73177"
+}

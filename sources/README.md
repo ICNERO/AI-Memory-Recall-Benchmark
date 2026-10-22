@@ -1,0 +1,1 @@
+原sources/topic_seeds/source_mapping均来自第六阶段冻结包，未重新宣称访问全部外部来源。method_sources为本次实际检索的方法论文；不把论文成绩当成本项目实测。本目录包含主题与来源线索，不交给检索器。

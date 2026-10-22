@@ -1,0 +1,14 @@
+[
+  {
+    "title": "NoLiMa: Long-Context Evaluation Beyond Literal Matching",
+    "url": "https://proceedings.mlr.press/v267/modarressi25a.html",
+    "use": "low lexical-overlap latent association motivation; not source of dataset scores",
+    "accessed": "2026-10-19"
+  },
+  {
+    "title": "Can You Unpack That? Learning to Rewrite Questions-in-Context",
+    "url": "https://aclanthology.org/D19-1605/",
+    "use": "context-dependent reference and ellipsis task distinction; not automatic rewrite of Public queries",
+    "accessed": "2026-10-19"
+  }
+]

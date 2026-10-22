@@ -1,0 +1,140 @@
+{
+  "actual_replayed_predictions": 3000,
+  "all_equal": true,
+  "compared_output_files": 24,
+  "note": "recorded latency values reused as inputs; new retrieval timing not claimed",
+  "runs": [
+    {
+      "files": {
+        "excluded_queries.jsonl": {
+          "equal": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "failures.jsonl": {
+          "equal": true,
+          "sha256": "9bb4a7023d30be811d5bbc4772b4ac5be88c3e6a87ea8bada11089c216b7b6f8"
+        },
+        "per_query.jsonl": {
+          "equal": true,
+          "sha256": "45ad3b2b301ab9e3406fb4c5e3a8e54e5f2a3dc4a752d4bcdf018abffc1c256f"
+        },
+        "summary.json": {
+          "equal": true,
+          "sha256": "bdb9c61ab8d299d3ae548fdab0c8f9e93fb02c87e5a86df6935c536451a61bff"
+        }
+      },
+      "method": "random",
+      "predictions": 500
+    },
+    {
+      "files": {
+        "excluded_queries.jsonl": {
+          "equal": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "failures.jsonl": {
+          "equal": true,
+          "sha256": "9bb4a7023d30be811d5bbc4772b4ac5be88c3e6a87ea8bada11089c216b7b6f8"
+        },
+        "per_query.jsonl": {
+          "equal": true,
+          "sha256": "b78f1e730d646009d796c311a75bb2dbb76ed37fd0aeeff7b3b0c8bcc0d8cc71"
+        },
+        "summary.json": {
+          "equal": true,
+          "sha256": "53e81eaf89370c0344cb1a1cdecf2b9671ac468b7e4d495ed96aaea2fa285485"
+        }
+      },
+      "method": "earliest",
+      "predictions": 500
+    },
+    {
+      "files": {
+        "excluded_queries.jsonl": {
+          "equal": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "failures.jsonl": {
+          "equal": true,
+          "sha256": "9bb4a7023d30be811d5bbc4772b4ac5be88c3e6a87ea8bada11089c216b7b6f8"
+        },
+        "per_query.jsonl": {
+          "equal": true,
+          "sha256": "333deefad1444b2d4d76dd50cbb99222cc05aa0aac221fbb53699fee338fdfda"
+        },
+        "summary.json": {
+          "equal": true,
+          "sha256": "fb8ddc610de1a5f36905d58c1c4124dd560eab078f60808bee925759cca0bffb"
+        }
+      },
+      "method": "latest",
+      "predictions": 500
+    },
+    {
+      "files": {
+        "excluded_queries.jsonl": {
+          "equal": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "failures.jsonl": {
+          "equal": true,
+          "sha256": "9bb4a7023d30be811d5bbc4772b4ac5be88c3e6a87ea8bada11089c216b7b6f8"
+        },
+        "per_query.jsonl": {
+          "equal": true,
+          "sha256": "bbce0fac367768e49d37d2199c63dd4a4907c04871c6bc1250a9b82aba10324f"
+        },
+        "summary.json": {
+          "equal": true,
+          "sha256": "343001263e49e4d29e10a16a4039391dc035425eb3e85bed28d58ec84d40b6a7"
+        }
+      },
+      "method": "bm25",
+      "predictions": 500
+    },
+    {
+      "files": {
+        "excluded_queries.jsonl": {
+          "equal": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "failures.jsonl": {
+          "equal": true,
+          "sha256": "9bb4a7023d30be811d5bbc4772b4ac5be88c3e6a87ea8bada11089c216b7b6f8"
+        },
+        "per_query.jsonl": {
+          "equal": true,
+          "sha256": "9b8388fbc26226f7ed5599497ffa72babb6ecdbf3f2310e510483f7fae6325fd"
+        },
+        "summary.json": {
+          "equal": true,
+          "sha256": "b91fab5107baa7a635c7bbfce315e0545318712817c73d44ab3fac43e92ff685"
+        }
+      },
+      "method": "tfidf",
+      "predictions": 500
+    },
+    {
+      "files": {
+        "excluded_queries.jsonl": {
+          "equal": true,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "failures.jsonl": {
+          "equal": true,
+          "sha256": "5199c99e4175ed59c420ca398668288689c7c71c68226894055aac5caf1f9bef"
+        },
+        "per_query.jsonl": {
+          "equal": true,
+          "sha256": "3db53f5e58098a08308235dfe7ab8585ea3e1d7f000fd34487d3ac40fef2c490"
+        },
+        "summary.json": {
+          "equal": true,
+          "sha256": "d5e78549689ea2f33a0d201f3af2b7149080a40b8c069e0eac9252cafc0d22b9"
+        }
+      },
+      "method": "bm25_first_frame",
+      "predictions": 500
+    }
+  ]
+}

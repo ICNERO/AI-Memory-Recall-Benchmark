@@ -1,0 +1,2 @@
+# Preserve frozen source bytes, Unicode offsets and checksums on every platform.
+* -text

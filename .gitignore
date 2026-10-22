@@ -1,0 +1,21 @@
+# Gold is intentionally PUBLIC at /gold/. Do not commit credentials, caches or local outputs.
+/private/
+/outputs/
+/scores/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+.env
+.env.*
+*.key
+*.pem
+*.token
+*_secret*
+*.sqlite
+*.db
+# Exclude old full upstream archives and owner-only source records. Public /gold/ is intentionally tracked.
+*stage6_original.zip
+*full_original*.zip
+
+.venv/

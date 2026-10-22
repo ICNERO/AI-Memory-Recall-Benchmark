@@ -1,0 +1,29 @@
+test_01_single_complete (test_scoring.Tests.test_01_single_complete) ... ok
+test_02_complete_extra (test_scoring.Tests.test_02_complete_extra) ... ok
+test_03_only_one_necessary (test_scoring.Tests.test_03_only_one_necessary) ... ok
+test_04_alternative_single (test_scoring.Tests.test_04_alternative_single) ... ok
+test_05_round_hit_missing_span (test_scoring.Tests.test_05_round_hit_missing_span) ... ok
+test_06_duplicate_cost_coverage (test_scoring.Tests.test_06_duplicate_cost_coverage) ... ok
+test_07_cross_frame_noncontinuous (test_scoring.Tests.test_07_cross_frame_noncontinuous) ... ok
+test_08_empty (test_scoring.Tests.test_08_empty) ... ok
+test_09_unmeasured_vs_empty (test_scoring.Tests.test_09_unmeasured_vs_empty) ... ok
+test_10_wrong_text_preserves_candidates (test_scoring.Tests.test_10_wrong_text_preserves_candidates) ... ok
+test_11_wrong_candidate_preserves_injection (test_scoring.Tests.test_11_wrong_candidate_preserves_injection) ... ok
+test_12_future_source (test_scoring.Tests.test_12_future_source) ... ok
+test_13_outside_allowed (test_scoring.Tests.test_13_outside_allowed) ... ok
+test_14_adjacent_join (test_scoring.Tests.test_14_adjacent_join) ... ok
+test_15_clarify (test_scoring.Tests.test_15_clarify) ... ok
+test_16_missing_field (test_scoring.Tests.test_16_missing_field) ... ok
+test_17_explicit_budget (test_scoring.Tests.test_17_explicit_budget) ... ok
+test_18_role_and_id_invariance (test_scoring.Tests.test_18_role_and_id_invariance) ... ok
+test_19_optional_measurement_nan (test_scoring.Tests.test_19_optional_measurement_nan) ... ok
+test_20_and_multi_span (test_scoring.Tests.test_20_and_multi_span) ... ok
+test_21_rank_order_matters_not_injection (test_scoring.Tests.test_21_rank_order_matters_not_injection) ... ok
+test_22_bool_offset_invalid (test_scoring.Tests.test_22_bool_offset_invalid) ... ok
+test_23_merge_reference (test_scoring.Tests.test_23_merge_reference) ... ok
+test_24_repeated_identical_input (test_scoring.Tests.test_24_repeated_identical_input) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.011s
+
+OK

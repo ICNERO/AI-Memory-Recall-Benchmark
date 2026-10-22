@@ -1,0 +1,35 @@
+{
+  "scope": "Fresh local rerun; output equality excluding newly measured latency. No OS sandbox claimed.",
+  "checks": [
+    {
+      "method": "random",
+      "predictions": 500,
+      "identical_except_latency": true
+    },
+    {
+      "method": "earliest",
+      "predictions": 500,
+      "identical_except_latency": true
+    },
+    {
+      "method": "latest",
+      "predictions": 500,
+      "identical_except_latency": true
+    },
+    {
+      "method": "bm25",
+      "predictions": 500,
+      "identical_except_latency": true
+    },
+    {
+      "method": "tfidf",
+      "predictions": 500,
+      "identical_except_latency": true
+    },
+    {
+      "method": "bm25_first_frame",
+      "predictions": 500,
+      "identical_except_latency": true
+    }
+  ]
+}

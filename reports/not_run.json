@@ -1,0 +1,22 @@
+[
+  {
+    "blocks_dataset_delivery": false,
+    "status": "not_run",
+    "system": "ALFU_on_v052_queries"
+  },
+  {
+    "blocks_dataset_delivery": false,
+    "status": "not_run",
+    "system": "dense_neural_embeddings"
+  },
+  {
+    "blocks_dataset_delivery": false,
+    "status": "not_run",
+    "system": "AI_supplement"
+  },
+  {
+    "blocks_dataset_delivery": false,
+    "status": "not_run",
+    "system": "new_independent_content_review"
+  }
+]

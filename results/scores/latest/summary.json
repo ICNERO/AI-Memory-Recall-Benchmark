@@ -1,0 +1,4209 @@
+{
+  "author_gold": true,
+  "evaluation_contract": "native-no-external-cap-v052",
+  "excluded_queries": 0,
+  "explicit_token_budget": null,
+  "groups": {
+    "difficulty": {
+      "UNDEFINED": {
+        "actions": {
+          "denominator": 500,
+          "mean": 0.992
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 0.07560483870967742
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.07096774193548387
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.0907258064516129
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 0.06300403225806452
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 0.06451612903225806
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 0.5463709677419355
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.1266293686152557
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.07430555555555556
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 0.5127352150537634
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 0.5201612903225806
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 0.8373655913978494
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.1374341580488033
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.0768401617288689
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 0.8137096774193548
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 0.8266129032258065
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 0.18380376344086022
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.10166250640040964
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.07930107526881719
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 0.16337365591397848
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 0.16129032258064516
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 0.2970430107526882
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.11759501699017827
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.07862903225806452
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 0.2741599462365591
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 0.26814516129032256
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.14295429433652096
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.07913623250353913
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.14295429433652096
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.07913623250353913
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.016907,
+          "P95": 0.162584,
+          "n": 500
+        },
+        "missing_outputs": 0,
+        "queries": 500,
+        "rows_with_errors": 0
+      }
+    },
+    "expected_behavior": {
+      "ABSTAIN": {
+        "actions": {
+          "denominator": 1,
+          "mean": 0.0
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.013069,
+          "P95": 0.013069,
+          "n": 1
+        },
+        "missing_outputs": 0,
+        "queries": 1,
+        "rows_with_errors": 0
+      },
+      "CLARIFY": {
+        "actions": {
+          "denominator": 3,
+          "mean": 0.0
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundF1": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 0,
+              "mean": null
+            },
+            "RelevantRoundRecall": {
+              "denominator": 0,
+              "mean": null
+            },
+            "SufficiencySuccess": {
+              "denominator": 0,
+              "mean": null
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.0103,
+          "P95": 0.012537,
+          "n": 3
+        },
+        "missing_outputs": 0,
+        "queries": 3,
+        "rows_with_errors": 0
+      },
+      "RETRIEVE": {
+        "actions": {
+          "denominator": 496,
+          "mean": 1.0
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 0.07560483870967742
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.07096774193548387
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.0907258064516129
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 0.06300403225806452
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 0.06451612903225806
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 0.5463709677419355
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.1266293686152557
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.07430555555555556
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 0.5127352150537634
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 0.5201612903225806
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 0.8373655913978494
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.1374341580488033
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.0768401617288689
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 0.8137096774193548
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 0.8266129032258065
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 0.18380376344086022
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.10166250640040964
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.07930107526881719
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 0.16337365591397848
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 0.16129032258064516
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 0.2970430107526882
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.11759501699017827
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.07862903225806452
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 0.2741599462365591
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 0.26814516129032256
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.14295429433652096
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.07913623250353913
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 496,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 496,
+              "mean": 0.14295429433652096
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 496,
+              "mean": 0.07913623250353913
+            },
+            "RelevantRoundRecall": {
+              "denominator": 496,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 496,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.016979,
+          "P95": 0.167633,
+          "n": 496
+        },
+        "missing_outputs": 0,
+        "queries": 496,
+        "rows_with_errors": 0
+      }
+    },
+    "legacy_content_type": {
+      "T01": {
+        "actions": {
+          "denominator": 14,
+          "mean": 0.9285714285714286
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 13,
+              "mean": 0.15384615384615385
+            },
+            "RelevantRoundF1": {
+              "denominator": 13,
+              "mean": 0.1282051282051282
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 13,
+              "mean": 0.15384615384615385
+            },
+            "RelevantRoundRecall": {
+              "denominator": 13,
+              "mean": 0.11538461538461539
+            },
+            "SufficiencySuccess": {
+              "denominator": 13,
+              "mean": 0.15384615384615385
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 13,
+              "mean": 0.5769230769230769
+            },
+            "RelevantRoundF1": {
+              "denominator": 13,
+              "mean": 0.1417428725121033
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 13,
+              "mean": 0.08461538461538462
+            },
+            "RelevantRoundRecall": {
+              "denominator": 13,
+              "mean": 0.5256410256410257
+            },
+            "SufficiencySuccess": {
+              "denominator": 13,
+              "mean": 0.5384615384615384
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 13,
+              "mean": 0.9230769230769231
+            },
+            "RelevantRoundF1": {
+              "denominator": 13,
+              "mean": 0.15683653952884724
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 13,
+              "mean": 0.0876639475472531
+            },
+            "RelevantRoundRecall": {
+              "denominator": 13,
+              "mean": 0.9230769230769231
+            },
+            "SufficiencySuccess": {
+              "denominator": 13,
+              "mean": 0.9230769230769231
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 13,
+              "mean": 0.34615384615384615
+            },
+            "RelevantRoundF1": {
+              "denominator": 13,
+              "mean": 0.1641025641025641
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 13,
+              "mean": 0.1282051282051282
+            },
+            "RelevantRoundRecall": {
+              "denominator": 13,
+              "mean": 0.25641025641025644
+            },
+            "SufficiencySuccess": {
+              "denominator": 13,
+              "mean": 0.3076923076923077
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 13,
+              "mean": 0.34615384615384615
+            },
+            "RelevantRoundF1": {
+              "denominator": 13,
+              "mean": 0.13644688644688643
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 13,
+              "mean": 0.09230769230769233
+            },
+            "RelevantRoundRecall": {
+              "denominator": 13,
+              "mean": 0.2948717948717949
+            },
+            "SufficiencySuccess": {
+              "denominator": 13,
+              "mean": 0.3076923076923077
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 13,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 13,
+              "mean": 0.1598655617886387
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 13,
+              "mean": 0.08918656680442613
+            },
+            "RelevantRoundRecall": {
+              "denominator": 13,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 13,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 13,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 13,
+              "mean": 0.1598655617886387
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 13,
+              "mean": 0.08918656680442613
+            },
+            "RelevantRoundRecall": {
+              "denominator": 13,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 13,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.013661,
+          "P95": 0.266567,
+          "n": 14
+        },
+        "missing_outputs": 0,
+        "queries": 14,
+        "rows_with_errors": 0
+      },
+      "T02": {
+        "actions": {
+          "denominator": 44,
+          "mean": 0.9772727272727273
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 43,
+              "mean": 0.023255813953488372
+            },
+            "RelevantRoundF1": {
+              "denominator": 43,
+              "mean": 0.015503875968992248
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 43,
+              "mean": 0.023255813953488372
+            },
+            "RelevantRoundRecall": {
+              "denominator": 43,
+              "mean": 0.011627906976744186
+            },
+            "SufficiencySuccess": {
+              "denominator": 43,
+              "mean": 0.023255813953488372
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 43,
+              "mean": 0.5232558139534884
+            },
+            "RelevantRoundF1": {
+              "denominator": 43,
+              "mean": 0.10668866017703227
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 43,
+              "mean": 0.06124031007751938
+            },
+            "RelevantRoundRecall": {
+              "denominator": 43,
+              "mean": 0.4786821705426356
+            },
+            "SufficiencySuccess": {
+              "denominator": 43,
+              "mean": 0.5116279069767442
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 43,
+              "mean": 0.813953488372093
+            },
+            "RelevantRoundF1": {
+              "denominator": 43,
+              "mean": 0.13802219871082624
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 43,
+              "mean": 0.07660220196759904
+            },
+            "RelevantRoundRecall": {
+              "denominator": 43,
+              "mean": 0.813953488372093
+            },
+            "SufficiencySuccess": {
+              "denominator": 43,
+              "mean": 0.813953488372093
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 43,
+              "mean": 0.05813953488372093
+            },
+            "RelevantRoundF1": {
+              "denominator": 43,
+              "mean": 0.030232558139534883
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 43,
+              "mean": 0.023255813953488372
+            },
+            "RelevantRoundRecall": {
+              "denominator": 43,
+              "mean": 0.046511627906976744
+            },
+            "SufficiencySuccess": {
+              "denominator": 43,
+              "mean": 0.046511627906976744
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 43,
+              "mean": 0.2558139534883721
+            },
+            "RelevantRoundF1": {
+              "denominator": 43,
+              "mean": 0.08970099667774085
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 43,
+              "mean": 0.0558139534883721
+            },
+            "RelevantRoundRecall": {
+              "denominator": 43,
+              "mean": 0.2441860465116279
+            },
+            "SufficiencySuccess": {
+              "denominator": 43,
+              "mean": 0.2558139534883721
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 43,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 43,
+              "mean": 0.14495280620721618
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 43,
+              "mean": 0.07982734331551837
+            },
+            "RelevantRoundRecall": {
+              "denominator": 43,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 43,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 43,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 43,
+              "mean": 0.14495280620721618
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 43,
+              "mean": 0.07982734331551837
+            },
+            "RelevantRoundRecall": {
+              "denominator": 43,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 43,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.016206,
+          "P95": 0.225222,
+          "n": 44
+        },
+        "missing_outputs": 0,
+        "queries": 44,
+        "rows_with_errors": 0
+      },
+      "T03": {
+        "actions": {
+          "denominator": 59,
+          "mean": 0.9830508474576272
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 58,
+              "mean": 0.02586206896551724
+            },
+            "RelevantRoundF1": {
+              "denominator": 58,
+              "mean": 0.028735632183908042
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 58,
+              "mean": 0.034482758620689655
+            },
+            "RelevantRoundRecall": {
+              "denominator": 58,
+              "mean": 0.02586206896551724
+            },
+            "SufficiencySuccess": {
+              "denominator": 58,
+              "mean": 0.017241379310344827
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 58,
+              "mean": 0.3706896551724138
+            },
+            "RelevantRoundF1": {
+              "denominator": 58,
+              "mean": 0.07664576802507837
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 58,
+              "mean": 0.04348659003831418
+            },
+            "RelevantRoundRecall": {
+              "denominator": 58,
+              "mean": 0.35344827586206895
+            },
+            "SufficiencySuccess": {
+              "denominator": 58,
+              "mean": 0.3620689655172414
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 58,
+              "mean": 0.8017241379310345
+            },
+            "RelevantRoundF1": {
+              "denominator": 58,
+              "mean": 0.10882506666909357
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 58,
+              "mean": 0.059378350437387484
+            },
+            "RelevantRoundRecall": {
+              "denominator": 58,
+              "mean": 0.7629310344827587
+            },
+            "SufficiencySuccess": {
+              "denominator": 58,
+              "mean": 0.7758620689655172
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 58,
+              "mean": 0.1206896551724138
+            },
+            "RelevantRoundF1": {
+              "denominator": 58,
+              "mean": 0.06551724137931034
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 58,
+              "mean": 0.04597701149425287
+            },
+            "RelevantRoundRecall": {
+              "denominator": 58,
+              "mean": 0.1206896551724138
+            },
+            "SufficiencySuccess": {
+              "denominator": 58,
+              "mean": 0.1206896551724138
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 58,
+              "mean": 0.20689655172413793
+            },
+            "RelevantRoundF1": {
+              "denominator": 58,
+              "mean": 0.0722495894909688
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 58,
+              "mean": 0.04482758620689655
+            },
+            "RelevantRoundRecall": {
+              "denominator": 58,
+              "mean": 0.19827586206896552
+            },
+            "SufficiencySuccess": {
+              "denominator": 58,
+              "mean": 0.20689655172413793
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 58,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 58,
+              "mean": 0.11543087224961124
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 58,
+              "mean": 0.06228594357771602
+            },
+            "RelevantRoundRecall": {
+              "denominator": 58,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 58,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 58,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 58,
+              "mean": 0.11543087224961124
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 58,
+              "mean": 0.06228594357771602
+            },
+            "RelevantRoundRecall": {
+              "denominator": 58,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 58,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.01741,
+          "P95": 0.107963,
+          "n": 59
+        },
+        "missing_outputs": 0,
+        "queries": 59,
+        "rows_with_errors": 0
+      },
+      "T04": {
+        "actions": {
+          "denominator": 34,
+          "mean": 1.0
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 34,
+              "mean": 0.11764705882352941
+            },
+            "RelevantRoundF1": {
+              "denominator": 34,
+              "mean": 0.12745098039215685
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 34,
+              "mean": 0.14705882352941177
+            },
+            "RelevantRoundRecall": {
+              "denominator": 34,
+              "mean": 0.11764705882352941
+            },
+            "SufficiencySuccess": {
+              "denominator": 34,
+              "mean": 0.11764705882352941
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 34,
+              "mean": 0.6470588235294118
+            },
+            "RelevantRoundF1": {
+              "denominator": 34,
+              "mean": 0.13253119429590018
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 34,
+              "mean": 0.07418300653594771
+            },
+            "RelevantRoundRecall": {
+              "denominator": 34,
+              "mean": 0.6617647058823529
+            },
+            "SufficiencySuccess": {
+              "denominator": 34,
+              "mean": 0.6470588235294118
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 34,
+              "mean": 0.9117647058823529
+            },
+            "RelevantRoundF1": {
+              "denominator": 34,
+              "mean": 0.13916311569012035
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 34,
+              "mean": 0.07630984679336528
+            },
+            "RelevantRoundRecall": {
+              "denominator": 34,
+              "mean": 0.9019607843137255
+            },
+            "SufficiencySuccess": {
+              "denominator": 34,
+              "mean": 0.9117647058823529
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 34,
+              "mean": 0.23529411764705882
+            },
+            "RelevantRoundF1": {
+              "denominator": 34,
+              "mean": 0.15
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 34,
+              "mean": 0.10784313725490195
+            },
+            "RelevantRoundRecall": {
+              "denominator": 34,
+              "mean": 0.2647058823529412
+            },
+            "SufficiencySuccess": {
+              "denominator": 34,
+              "mean": 0.23529411764705882
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 34,
+              "mean": 0.38235294117647056
+            },
+            "RelevantRoundF1": {
+              "denominator": 34,
+              "mean": 0.15126050420168066
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 34,
+              "mean": 0.09411764705882353
+            },
+            "RelevantRoundRecall": {
+              "denominator": 34,
+              "mean": 0.4117647058823529
+            },
+            "SufficiencySuccess": {
+              "denominator": 34,
+              "mean": 0.38235294117647056
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 34,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 34,
+              "mean": 0.13944991955372577
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 34,
+              "mean": 0.07602678674113016
+            },
+            "RelevantRoundRecall": {
+              "denominator": 34,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 34,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 34,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 34,
+              "mean": 0.13944991955372577
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 34,
+              "mean": 0.07602678674113016
+            },
+            "RelevantRoundRecall": {
+              "denominator": 34,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 34,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.017224,
+          "P95": 0.383875,
+          "n": 34
+        },
+        "missing_outputs": 0,
+        "queries": 34,
+        "rows_with_errors": 0
+      },
+      "T05": {
+        "actions": {
+          "denominator": 16,
+          "mean": 0.9375
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 15,
+              "mean": 0.13333333333333333
+            },
+            "RelevantRoundF1": {
+              "denominator": 15,
+              "mean": 0.13333333333333333
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 15,
+              "mean": 0.13333333333333333
+            },
+            "RelevantRoundRecall": {
+              "denominator": 15,
+              "mean": 0.13333333333333333
+            },
+            "SufficiencySuccess": {
+              "denominator": 15,
+              "mean": 0.13333333333333333
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 15,
+              "mean": 0.8
+            },
+            "RelevantRoundF1": {
+              "denominator": 15,
+              "mean": 0.1725829725829726
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 15,
+              "mean": 0.1
+            },
+            "RelevantRoundRecall": {
+              "denominator": 15,
+              "mean": 0.7666666666666667
+            },
+            "SufficiencySuccess": {
+              "denominator": 15,
+              "mean": 0.7333333333333333
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 15,
+              "mean": 0.9333333333333333
+            },
+            "RelevantRoundF1": {
+              "denominator": 15,
+              "mean": 0.14401783401783402
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 15,
+              "mean": 0.07962579903756374
+            },
+            "RelevantRoundRecall": {
+              "denominator": 15,
+              "mean": 0.9166666666666666
+            },
+            "SufficiencySuccess": {
+              "denominator": 15,
+              "mean": 0.9333333333333333
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 15,
+              "mean": 0.43333333333333335
+            },
+            "RelevantRoundF1": {
+              "denominator": 15,
+              "mean": 0.21904761904761905
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 15,
+              "mean": 0.15555555555555553
+            },
+            "RelevantRoundRecall": {
+              "denominator": 15,
+              "mean": 0.4166666666666667
+            },
+            "SufficiencySuccess": {
+              "denominator": 15,
+              "mean": 0.4
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 15,
+              "mean": 0.4666666666666667
+            },
+            "RelevantRoundF1": {
+              "denominator": 15,
+              "mean": 0.16296296296296295
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 15,
+              "mean": 0.10666666666666667
+            },
+            "RelevantRoundRecall": {
+              "denominator": 15,
+              "mean": 0.43333333333333335
+            },
+            "SufficiencySuccess": {
+              "denominator": 15,
+              "mean": 0.4666666666666667
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 15,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 15,
+              "mean": 0.13573800500629768
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 15,
+              "mean": 0.07417873501876797
+            },
+            "RelevantRoundRecall": {
+              "denominator": 15,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 15,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 15,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 15,
+              "mean": 0.13573800500629768
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 15,
+              "mean": 0.07417873501876797
+            },
+            "RelevantRoundRecall": {
+              "denominator": 15,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 15,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.01667,
+          "P95": 0.075009,
+          "n": 16
+        },
+        "missing_outputs": 0,
+        "queries": 16,
+        "rows_with_errors": 0
+      },
+      "T06": {
+        "actions": {
+          "denominator": 59,
+          "mean": 1.0
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 59,
+              "mean": 0.059322033898305086
+            },
+            "RelevantRoundF1": {
+              "denominator": 59,
+              "mean": 0.04067796610169491
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 59,
+              "mean": 0.06779661016949153
+            },
+            "RelevantRoundRecall": {
+              "denominator": 59,
+              "mean": 0.029661016949152543
+            },
+            "SufficiencySuccess": {
+              "denominator": 59,
+              "mean": 0.05084745762711865
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 59,
+              "mean": 0.6186440677966102
+            },
+            "RelevantRoundF1": {
+              "denominator": 59,
+              "mean": 0.13762677999966136
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 59,
+              "mean": 0.08022598870056498
+            },
+            "RelevantRoundRecall": {
+              "denominator": 59,
+              "mean": 0.559322033898305
+            },
+            "SufficiencySuccess": {
+              "denominator": 59,
+              "mean": 0.6101694915254238
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 59,
+              "mean": 0.8813559322033898
+            },
+            "RelevantRoundF1": {
+              "denominator": 59,
+              "mean": 0.13956408592893874
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 59,
+              "mean": 0.07795464812833759
+            },
+            "RelevantRoundRecall": {
+              "denominator": 59,
+              "mean": 0.847457627118644
+            },
+            "SufficiencySuccess": {
+              "denominator": 59,
+              "mean": 0.8813559322033898
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 59,
+              "mean": 0.211864406779661
+            },
+            "RelevantRoundF1": {
+              "denominator": 59,
+              "mean": 0.10145278450363196
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 59,
+              "mean": 0.0790960451977401
+            },
+            "RelevantRoundRecall": {
+              "denominator": 59,
+              "mean": 0.15677966101694915
+            },
+            "SufficiencySuccess": {
+              "denominator": 59,
+              "mean": 0.1864406779661017
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 59,
+              "mean": 0.2542372881355932
+            },
+            "RelevantRoundF1": {
+              "denominator": 59,
+              "mean": 0.09597793919827817
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 59,
+              "mean": 0.06440677966101695
+            },
+            "RelevantRoundRecall": {
+              "denominator": 59,
+              "mean": 0.2132768361581921
+            },
+            "SufficiencySuccess": {
+              "denominator": 59,
+              "mean": 0.22033898305084745
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 59,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 59,
+              "mean": 0.13958782961510977
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 59,
+              "mean": 0.07749433595917406
+            },
+            "RelevantRoundRecall": {
+              "denominator": 59,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 59,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 59,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 59,
+              "mean": 0.13958782961510977
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 59,
+              "mean": 0.07749433595917406
+            },
+            "RelevantRoundRecall": {
+              "denominator": 59,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 59,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.017043,
+          "P95": 0.047493,
+          "n": 59
+        },
+        "missing_outputs": 0,
+        "queries": 59,
+        "rows_with_errors": 0
+      },
+      "T07": {
+        "actions": {
+          "denominator": 83,
+          "mean": 1.0
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 83,
+              "mean": 0.0963855421686747
+            },
+            "RelevantRoundF1": {
+              "denominator": 83,
+              "mean": 0.08433734939759036
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 83,
+              "mean": 0.10843373493975904
+            },
+            "RelevantRoundRecall": {
+              "denominator": 83,
+              "mean": 0.07429718875502009
+            },
+            "SufficiencySuccess": {
+              "denominator": 83,
+              "mean": 0.08433734939759036
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 83,
+              "mean": 0.5301204819277109
+            },
+            "RelevantRoundF1": {
+              "denominator": 83,
+              "mean": 0.1180883373654458
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 83,
+              "mean": 0.07028112449799198
+            },
+            "RelevantRoundRecall": {
+              "denominator": 83,
+              "mean": 0.44056224899598395
+            },
+            "SufficiencySuccess": {
+              "denominator": 83,
+              "mean": 0.4819277108433735
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 83,
+              "mean": 0.8072289156626506
+            },
+            "RelevantRoundF1": {
+              "denominator": 83,
+              "mean": 0.13865459567736707
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 83,
+              "mean": 0.07865399341769218
+            },
+            "RelevantRoundRecall": {
+              "denominator": 83,
+              "mean": 0.7341365461847389
+            },
+            "SufficiencySuccess": {
+              "denominator": 83,
+              "mean": 0.7951807228915663
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 83,
+              "mean": 0.1927710843373494
+            },
+            "RelevantRoundF1": {
+              "denominator": 83,
+              "mean": 0.10461847389558233
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 83,
+              "mean": 0.08433734939759036
+            },
+            "RelevantRoundRecall": {
+              "denominator": 83,
+              "mean": 0.1570281124497992
+            },
+            "SufficiencySuccess": {
+              "denominator": 83,
+              "mean": 0.1686746987951807
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 83,
+              "mean": 0.3373493975903614
+            },
+            "RelevantRoundF1": {
+              "denominator": 83,
+              "mean": 0.1306081468732071
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 83,
+              "mean": 0.0891566265060241
+            },
+            "RelevantRoundRecall": {
+              "denominator": 83,
+              "mean": 0.28393574297188756
+            },
+            "SufficiencySuccess": {
+              "denominator": 83,
+              "mean": 0.30120481927710846
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 83,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 83,
+              "mean": 0.15309111005703158
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 83,
+              "mean": 0.08538007355936204
+            },
+            "RelevantRoundRecall": {
+              "denominator": 83,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 83,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 83,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 83,
+              "mean": 0.15309111005703158
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 83,
+              "mean": 0.08538007355936204
+            },
+            "RelevantRoundRecall": {
+              "denominator": 83,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 83,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.017419,
+          "P95": 0.349253,
+          "n": 83
+        },
+        "missing_outputs": 0,
+        "queries": 83,
+        "rows_with_errors": 0
+      },
+      "T08": {
+        "actions": {
+          "denominator": 63,
+          "mean": 1.0
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 63,
+              "mean": 0.1111111111111111
+            },
+            "RelevantRoundF1": {
+              "denominator": 63,
+              "mean": 0.10423280423280423
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 63,
+              "mean": 0.12698412698412698
+            },
+            "RelevantRoundRecall": {
+              "denominator": 63,
+              "mean": 0.09656084656084656
+            },
+            "SufficiencySuccess": {
+              "denominator": 63,
+              "mean": 0.09523809523809523
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 63,
+              "mean": 0.5899470899470899
+            },
+            "RelevantRoundF1": {
+              "denominator": 63,
+              "mean": 0.16059178916321773
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 63,
+              "mean": 0.09594356261022928
+            },
+            "RelevantRoundRecall": {
+              "denominator": 63,
+              "mean": 0.5740740740740741
+            },
+            "SufficiencySuccess": {
+              "denominator": 63,
+              "mean": 0.5714285714285714
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 63,
+              "mean": 0.8756613756613756
+            },
+            "RelevantRoundF1": {
+              "denominator": 63,
+              "mean": 0.1607360733936765
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 63,
+              "mean": 0.09057952765751674
+            },
+            "RelevantRoundRecall": {
+              "denominator": 63,
+              "mean": 0.8677248677248677
+            },
+            "SufficiencySuccess": {
+              "denominator": 63,
+              "mean": 0.8571428571428571
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 63,
+              "mean": 0.1560846560846561
+            },
+            "RelevantRoundF1": {
+              "denominator": 63,
+              "mean": 0.09380196523053666
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 63,
+              "mean": 0.07936507936507936
+            },
+            "RelevantRoundRecall": {
+              "denominator": 63,
+              "mean": 0.13756613756613756
+            },
+            "SufficiencySuccess": {
+              "denominator": 63,
+              "mean": 0.12698412698412698
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 63,
+              "mean": 0.2724867724867725
+            },
+            "RelevantRoundF1": {
+              "denominator": 63,
+              "mean": 0.12534643487024438
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 63,
+              "mean": 0.08888888888888889
+            },
+            "RelevantRoundRecall": {
+              "denominator": 63,
+              "mean": 0.2447089947089947
+            },
+            "SufficiencySuccess": {
+              "denominator": 63,
+              "mean": 0.2222222222222222
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 63,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 63,
+              "mean": 0.16118431368709543
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 63,
+              "mean": 0.09005607170296905
+            },
+            "RelevantRoundRecall": {
+              "denominator": 63,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 63,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 63,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 63,
+              "mean": 0.16118431368709543
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 63,
+              "mean": 0.09005607170296905
+            },
+            "RelevantRoundRecall": {
+              "denominator": 63,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 63,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.016458,
+          "P95": 0.289108,
+          "n": 63
+        },
+        "missing_outputs": 0,
+        "queries": 63,
+        "rows_with_errors": 0
+      },
+      "T09": {
+        "actions": {
+          "denominator": 32,
+          "mean": 1.0
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 32,
+              "mean": 0.171875
+            },
+            "RelevantRoundF1": {
+              "denominator": 32,
+              "mean": 0.19270833333333334
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 32,
+              "mean": 0.21875
+            },
+            "RelevantRoundRecall": {
+              "denominator": 32,
+              "mean": 0.18229166666666666
+            },
+            "SufficiencySuccess": {
+              "denominator": 32,
+              "mean": 0.15625
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 32,
+              "mean": 0.7291666666666666
+            },
+            "RelevantRoundF1": {
+              "denominator": 32,
+              "mean": 0.19649230977355978
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 32,
+              "mean": 0.11944444444444445
+            },
+            "RelevantRoundRecall": {
+              "denominator": 32,
+              "mean": 0.71875
+            },
+            "SufficiencySuccess": {
+              "denominator": 32,
+              "mean": 0.625
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 32,
+              "mean": 0.8802083333333334
+            },
+            "RelevantRoundF1": {
+              "denominator": 32,
+              "mean": 0.16252538837814867
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 32,
+              "mean": 0.09290577145163058
+            },
+            "RelevantRoundRecall": {
+              "denominator": 32,
+              "mean": 0.8697916666666666
+            },
+            "SufficiencySuccess": {
+              "denominator": 32,
+              "mean": 0.84375
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 32,
+              "mean": 0.3541666666666667
+            },
+            "RelevantRoundF1": {
+              "denominator": 32,
+              "mean": 0.2204861111111111
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 32,
+              "mean": 0.17708333333333331
+            },
+            "RelevantRoundRecall": {
+              "denominator": 32,
+              "mean": 0.34375
+            },
+            "SufficiencySuccess": {
+              "denominator": 32,
+              "mean": 0.28125
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 32,
+              "mean": 0.5208333333333334
+            },
+            "RelevantRoundF1": {
+              "denominator": 32,
+              "mean": 0.23383387445887444
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 32,
+              "mean": 0.1625
+            },
+            "RelevantRoundRecall": {
+              "denominator": 32,
+              "mean": 0.5104166666666666
+            },
+            "SufficiencySuccess": {
+              "denominator": 32,
+              "mean": 0.4375
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 32,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 32,
+              "mean": 0.16390621996839302
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 32,
+              "mean": 0.09243403649670746
+            },
+            "RelevantRoundRecall": {
+              "denominator": 32,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 32,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 32,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 32,
+              "mean": 0.16390621996839302
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 32,
+              "mean": 0.09243403649670746
+            },
+            "RelevantRoundRecall": {
+              "denominator": 32,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 32,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.016979,
+          "P95": 0.162584,
+          "n": 32
+        },
+        "missing_outputs": 0,
+        "queries": 32,
+        "rows_with_errors": 0
+      },
+      "T10": {
+        "actions": {
+          "denominator": 96,
+          "mean": 1.0
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 96,
+              "mean": 0.03125
+            },
+            "RelevantRoundF1": {
+              "denominator": 96,
+              "mean": 0.02847222222222222
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 96,
+              "mean": 0.052083333333333336
+            },
+            "RelevantRoundRecall": {
+              "denominator": 96,
+              "mean": 0.019965277777777776
+            },
+            "SufficiencySuccess": {
+              "denominator": 96,
+              "mean": 0.010416666666666666
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 96,
+              "mean": 0.4635416666666667
+            },
+            "RelevantRoundF1": {
+              "denominator": 96,
+              "mean": 0.10949259074259075
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 96,
+              "mean": 0.06400462962962963
+            },
+            "RelevantRoundRecall": {
+              "denominator": 96,
+              "mean": 0.4548611111111111
+            },
+            "SufficiencySuccess": {
+              "denominator": 96,
+              "mean": 0.4479166666666667
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 96,
+              "mean": 0.7760416666666666
+            },
+            "RelevantRoundF1": {
+              "denominator": 96,
+              "mean": 0.12416716625307957
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 96,
+              "mean": 0.06915861969557789
+            },
+            "RelevantRoundRecall": {
+              "denominator": 96,
+              "mean": 0.7760416666666666
+            },
+            "SufficiencySuccess": {
+              "denominator": 96,
+              "mean": 0.7708333333333334
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 96,
+              "mean": 0.13541666666666666
+            },
+            "RelevantRoundF1": {
+              "denominator": 96,
+              "mean": 0.07470238095238095
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 96,
+              "mean": 0.05902777777777777
+            },
+            "RelevantRoundRecall": {
+              "denominator": 96,
+              "mean": 0.11979166666666667
+            },
+            "SufficiencySuccess": {
+              "denominator": 96,
+              "mean": 0.11458333333333333
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 96,
+              "mean": 0.23958333333333334
+            },
+            "RelevantRoundF1": {
+              "denominator": 96,
+              "mean": 0.0941220238095238
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 96,
+              "mean": 0.0625
+            },
+            "RelevantRoundRecall": {
+              "denominator": 96,
+              "mean": 0.2265625
+            },
+            "SufficiencySuccess": {
+              "denominator": 96,
+              "mean": 0.20833333333333334
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 96,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 96,
+              "mean": 0.13312389799013039
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 96,
+              "mean": 0.07353395913065726
+            },
+            "RelevantRoundRecall": {
+              "denominator": 96,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 96,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 96,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 96,
+              "mean": 0.13312389799013039
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 96,
+              "mean": 0.07353395913065726
+            },
+            "RelevantRoundRecall": {
+              "denominator": 96,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 96,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.015842,
+          "P95": 0.126168,
+          "n": 96
+        },
+        "missing_outputs": 0,
+        "queries": 96,
+        "rows_with_errors": 0
+      }
+    },
+    "recall_family": {
+      "fuzzy_reference": {
+        "actions": {
+          "denominator": 243,
+          "mean": 0.9835390946502057
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 239,
+              "mean": 0.09205020920502092
+            },
+            "RelevantRoundF1": {
+              "denominator": 239,
+              "mean": 0.08633193863319386
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 239,
+              "mean": 0.11297071129707113
+            },
+            "RelevantRoundRecall": {
+              "denominator": 239,
+              "mean": 0.07601115760111576
+            },
+            "SufficiencySuccess": {
+              "denominator": 239,
+              "mean": 0.07531380753138076
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 239,
+              "mean": 0.5557880055788006
+            },
+            "RelevantRoundF1": {
+              "denominator": 239,
+              "mean": 0.14139406618486117
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 239,
+              "mean": 0.08391445839144585
+            },
+            "RelevantRoundRecall": {
+              "denominator": 239,
+              "mean": 0.5425383542538353
+            },
+            "SufficiencySuccess": {
+              "denominator": 239,
+              "mean": 0.5271966527196653
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 239,
+              "mean": 0.8340306834030684
+            },
+            "RelevantRoundF1": {
+              "denominator": 239,
+              "mean": 0.14523598033998586
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 239,
+              "mean": 0.08203982307315338
+            },
+            "RelevantRoundRecall": {
+              "denominator": 239,
+              "mean": 0.8155509065550907
+            },
+            "SufficiencySuccess": {
+              "denominator": 239,
+              "mean": 0.8158995815899581
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 239,
+              "mean": 0.20571827057182704
+            },
+            "RelevantRoundF1": {
+              "denominator": 239,
+              "mean": 0.11696885169688517
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 239,
+              "mean": 0.09344490934449093
+            },
+            "RelevantRoundRecall": {
+              "denominator": 239,
+              "mean": 0.18305439330543932
+            },
+            "SufficiencySuccess": {
+              "denominator": 239,
+              "mean": 0.17573221757322174
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 239,
+              "mean": 0.30962343096234307
+            },
+            "RelevantRoundF1": {
+              "denominator": 239,
+              "mean": 0.13051465038912738
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 239,
+              "mean": 0.0895397489539749
+            },
+            "RelevantRoundRecall": {
+              "denominator": 239,
+              "mean": 0.28451882845188287
+            },
+            "SufficiencySuccess": {
+              "denominator": 239,
+              "mean": 0.26778242677824265
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 239,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 239,
+              "mean": 0.15181363253269695
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 239,
+              "mean": 0.08494259257688837
+            },
+            "RelevantRoundRecall": {
+              "denominator": 239,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 239,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 239,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 239,
+              "mean": 0.15181363253269695
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 239,
+              "mean": 0.08494259257688837
+            },
+            "RelevantRoundRecall": {
+              "denominator": 239,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 239,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.015722,
+          "P95": 0.101053,
+          "n": 243
+        },
+        "missing_outputs": 0,
+        "queries": 243,
+        "rows_with_errors": 0
+      },
+      "implicit_structure": {
+        "actions": {
+          "denominator": 257,
+          "mean": 1.0
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 257,
+              "mean": 0.06031128404669261
+            },
+            "RelevantRoundF1": {
+              "denominator": 257,
+              "mean": 0.05667963683527886
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 257,
+              "mean": 0.07003891050583658
+            },
+            "RelevantRoundRecall": {
+              "denominator": 257,
+              "mean": 0.05090791180285344
+            },
+            "SufficiencySuccess": {
+              "denominator": 257,
+              "mean": 0.054474708171206226
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 257,
+              "mean": 0.5376134889753567
+            },
+            "RelevantRoundF1": {
+              "denominator": 257,
+              "mean": 0.1128987743773736
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 257,
+              "mean": 0.06536964980544747
+            },
+            "RelevantRoundRecall": {
+              "denominator": 257,
+              "mean": 0.4850194552529183
+            },
+            "SufficiencySuccess": {
+              "denominator": 257,
+              "mean": 0.5136186770428015
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 257,
+              "mean": 0.8404669260700389
+            },
+            "RelevantRoundF1": {
+              "denominator": 257,
+              "mean": 0.13017876689085534
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 257,
+              "mean": 0.07200467900013743
+            },
+            "RelevantRoundRecall": {
+              "denominator": 257,
+              "mean": 0.8119974059662776
+            },
+            "SufficiencySuccess": {
+              "denominator": 257,
+              "mean": 0.8365758754863813
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 257,
+              "mean": 0.16342412451361868
+            },
+            "RelevantRoundF1": {
+              "denominator": 257,
+              "mean": 0.08742820085232536
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 257,
+              "mean": 0.06614785992217899
+            },
+            "RelevantRoundRecall": {
+              "denominator": 257,
+              "mean": 0.14507133592736704
+            },
+            "SufficiencySuccess": {
+              "denominator": 257,
+              "mean": 0.14785992217898833
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 257,
+              "mean": 0.2853437094682231
+            },
+            "RelevantRoundF1": {
+              "denominator": 257,
+              "mean": 0.1055802606386264
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 257,
+              "mean": 0.06848249027237355
+            },
+            "RelevantRoundRecall": {
+              "denominator": 257,
+              "mean": 0.264526588845655
+            },
+            "SufficiencySuccess": {
+              "denominator": 257,
+              "mean": 0.26848249027237353
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 257,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 257,
+              "mean": 0.13471545453540787
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 257,
+              "mean": 0.07373654356373187
+            },
+            "RelevantRoundRecall": {
+              "denominator": 257,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 257,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 257,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 257,
+              "mean": 0.13471545453540787
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 257,
+              "mean": 0.07373654356373187
+            },
+            "RelevantRoundRecall": {
+              "denominator": 257,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 257,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.017646,
+          "P95": 0.206577,
+          "n": 257
+        },
+        "missing_outputs": 0,
+        "queries": 257,
+        "rows_with_errors": 0
+      }
+    },
+    "split": {
+      "dev": {
+        "actions": {
+          "denominator": 100,
+          "mean": 1.0
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 100,
+              "mean": 0.075
+            },
+            "RelevantRoundF1": {
+              "denominator": 100,
+              "mean": 0.07333333333333333
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 100,
+              "mean": 0.08
+            },
+            "RelevantRoundRecall": {
+              "denominator": 100,
+              "mean": 0.07
+            },
+            "SufficiencySuccess": {
+              "denominator": 100,
+              "mean": 0.07
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 100,
+              "mean": 0.5216666666666666
+            },
+            "RelevantRoundF1": {
+              "denominator": 100,
+              "mean": 0.11861205461205461
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 100,
+              "mean": 0.06844444444444445
+            },
+            "RelevantRoundRecall": {
+              "denominator": 100,
+              "mean": 0.5108333333333334
+            },
+            "SufficiencySuccess": {
+              "denominator": 100,
+              "mean": 0.51
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 100,
+              "mean": 0.7966666666666667
+            },
+            "RelevantRoundF1": {
+              "denominator": 100,
+              "mean": 0.12522649409414113
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 100,
+              "mean": 0.06926495726495727
+            },
+            "RelevantRoundRecall": {
+              "denominator": 100,
+              "mean": 0.7975
+            },
+            "SufficiencySuccess": {
+              "denominator": 100,
+              "mean": 0.79
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 100,
+              "mean": 0.18333333333333332
+            },
+            "RelevantRoundF1": {
+              "denominator": 100,
+              "mean": 0.10204761904761904
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 100,
+              "mean": 0.07666666666666666
+            },
+            "RelevantRoundRecall": {
+              "denominator": 100,
+              "mean": 0.1733333333333333
+            },
+            "SufficiencySuccess": {
+              "denominator": 100,
+              "mean": 0.17
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 100,
+              "mean": 0.3066666666666667
+            },
+            "RelevantRoundF1": {
+              "denominator": 100,
+              "mean": 0.12202380952380952
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 100,
+              "mean": 0.08
+            },
+            "RelevantRoundRecall": {
+              "denominator": 100,
+              "mean": 0.29583333333333334
+            },
+            "SufficiencySuccess": {
+              "denominator": 100,
+              "mean": 0.28
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 100,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 100,
+              "mean": 0.1312009726738829
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 100,
+              "mean": 0.07200689274882822
+            },
+            "RelevantRoundRecall": {
+              "denominator": 100,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 100,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 100,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 100,
+              "mean": 0.1312009726738829
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 100,
+              "mean": 0.07200689274882822
+            },
+            "RelevantRoundRecall": {
+              "denominator": 100,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 100,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.017181,
+          "P95": 0.126168,
+          "n": 100
+        },
+        "missing_outputs": 0,
+        "queries": 100,
+        "rows_with_errors": 0
+      },
+      "test": {
+        "actions": {
+          "denominator": 100,
+          "mean": 0.98
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 98,
+              "mean": 0.061224489795918366
+            },
+            "RelevantRoundF1": {
+              "denominator": 98,
+              "mean": 0.052721088435374146
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 98,
+              "mean": 0.07142857142857142
+            },
+            "RelevantRoundRecall": {
+              "denominator": 98,
+              "mean": 0.044217687074829926
+            },
+            "SufficiencySuccess": {
+              "denominator": 98,
+              "mean": 0.05102040816326531
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 98,
+              "mean": 0.5918367346938775
+            },
+            "RelevantRoundF1": {
+              "denominator": 98,
+              "mean": 0.13304484631015243
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 98,
+              "mean": 0.07755102040816327
+            },
+            "RelevantRoundRecall": {
+              "denominator": 98,
+              "mean": 0.5585034013605442
+            },
+            "SufficiencySuccess": {
+              "denominator": 98,
+              "mean": 0.5714285714285714
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 98,
+              "mean": 0.8112244897959183
+            },
+            "RelevantRoundF1": {
+              "denominator": 98,
+              "mean": 0.1383144417316759
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 98,
+              "mean": 0.07777321454897748
+            },
+            "RelevantRoundRecall": {
+              "denominator": 98,
+              "mean": 0.7901360544217687
+            },
+            "SufficiencySuccess": {
+              "denominator": 98,
+              "mean": 0.8061224489795918
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 98,
+              "mean": 0.15816326530612246
+            },
+            "RelevantRoundF1": {
+              "denominator": 98,
+              "mean": 0.0870991253644315
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 98,
+              "mean": 0.06802721088435373
+            },
+            "RelevantRoundRecall": {
+              "denominator": 98,
+              "mean": 0.1423469387755102
+            },
+            "SufficiencySuccess": {
+              "denominator": 98,
+              "mean": 0.1326530612244898
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 98,
+              "mean": 0.32142857142857145
+            },
+            "RelevantRoundF1": {
+              "denominator": 98,
+              "mean": 0.12438451571104632
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 98,
+              "mean": 0.0836734693877551
+            },
+            "RelevantRoundRecall": {
+              "denominator": 98,
+              "mean": 0.29149659863945576
+            },
+            "SufficiencySuccess": {
+              "denominator": 98,
+              "mean": 0.2857142857142857
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 98,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 98,
+              "mean": 0.1505962120276267
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 98,
+              "mean": 0.08377391028181608
+            },
+            "RelevantRoundRecall": {
+              "denominator": 98,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 98,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 98,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 98,
+              "mean": 0.1505962120276267
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 98,
+              "mean": 0.08377391028181608
+            },
+            "RelevantRoundRecall": {
+              "denominator": 98,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 98,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.017514,
+          "P95": 0.101053,
+          "n": 100
+        },
+        "missing_outputs": 0,
+        "queries": 100,
+        "rows_with_errors": 0
+      },
+      "train": {
+        "actions": {
+          "denominator": 300,
+          "mean": 0.9933333333333333
+        },
+        "candidate": {
+          "1": {
+            "BestPathRoundRecall": {
+              "denominator": 298,
+              "mean": 0.08053691275167785
+            },
+            "RelevantRoundF1": {
+              "denominator": 298,
+              "mean": 0.0761744966442953
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 298,
+              "mean": 0.10067114093959731
+            },
+            "RelevantRoundRecall": {
+              "denominator": 298,
+              "mean": 0.066834451901566
+            },
+            "SufficiencySuccess": {
+              "denominator": 298,
+              "mean": 0.06711409395973154
+            }
+          },
+          "10": {
+            "BestPathRoundRecall": {
+              "denominator": 298,
+              "mean": 0.5397091722595079
+            },
+            "RelevantRoundF1": {
+              "denominator": 298,
+              "mean": 0.12720995447505515
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 298,
+              "mean": 0.07520507084265474
+            },
+            "RelevantRoundRecall": {
+              "denominator": 298,
+              "mean": 0.4983221476510067
+            },
+            "SufficiencySuccess": {
+              "denominator": 298,
+              "mean": 0.5067114093959731
+            }
+          },
+          "20": {
+            "BestPathRoundRecall": {
+              "denominator": 298,
+              "mean": 0.859619686800895
+            },
+            "RelevantRoundF1": {
+              "denominator": 298,
+              "mean": 0.1412412003123761
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 298,
+              "mean": 0.07907533377591765
+            },
+            "RelevantRoundRecall": {
+              "denominator": 298,
+              "mean": 0.8269015659955257
+            },
+            "SufficiencySuccess": {
+              "denominator": 298,
+              "mean": 0.8456375838926175
+            }
+          },
+          "3": {
+            "BestPathRoundRecall": {
+              "denominator": 298,
+              "mean": 0.1923937360178971
+            },
+            "RelevantRoundF1": {
+              "denominator": 298,
+              "mean": 0.1063225737722382
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 298,
+              "mean": 0.08389261744966443
+            },
+            "RelevantRoundRecall": {
+              "denominator": 298,
+              "mean": 0.1669463087248322
+            },
+            "SufficiencySuccess": {
+              "denominator": 298,
+              "mean": 0.16778523489932887
+            }
+          },
+          "5": {
+            "BestPathRoundRecall": {
+              "denominator": 298,
+              "mean": 0.2857941834451902
+            },
+            "RelevantRoundF1": {
+              "denominator": 298,
+              "mean": 0.11387605682907696
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 298,
+              "mean": 0.07651006711409396
+            },
+            "RelevantRoundRecall": {
+              "denominator": 298,
+              "mean": 0.2611856823266219
+            },
+            "SufficiencySuccess": {
+              "denominator": 298,
+              "mean": 0.25838926174496646
+            }
+          },
+          "50": {
+            "BestPathRoundRecall": {
+              "denominator": 298,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 298,
+              "mean": 0.14438524813697545
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 298,
+              "mean": 0.08000348603776714
+            },
+            "RelevantRoundRecall": {
+              "denominator": 298,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 298,
+              "mean": 1.0
+            }
+          },
+          "all": {
+            "BestPathRoundRecall": {
+              "denominator": 298,
+              "mean": 1.0
+            },
+            "RelevantRoundF1": {
+              "denominator": 298,
+              "mean": 0.14438524813697545
+            },
+            "RelevantRoundPrecision": {
+              "denominator": 298,
+              "mean": 0.08000348603776714
+            },
+            "RelevantRoundRecall": {
+              "denominator": 298,
+              "mean": 1.0
+            },
+            "SufficiencySuccess": {
+              "denominator": 298,
+              "mean": 1.0
+            }
+          }
+        },
+        "injection": {
+          "BestPathRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "InjectionTokens": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelativeOverhead": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundF1": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundPrecision": {
+            "denominator": 0,
+            "mean": null
+          },
+          "RelevantRoundRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SourceClaimRecall": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SpanPurity": {
+            "denominator": 0,
+            "mean": null
+          },
+          "SufficiencySuccess": {
+            "denominator": 0,
+            "mean": null
+          }
+        },
+        "latency_ms": {
+          "P50": 0.01667,
+          "P95": 0.18188,
+          "n": 300
+        },
+        "missing_outputs": 0,
+        "queries": 300,
+        "rows_with_errors": 0
+      }
+    }
+  },
+  "input_prediction_sha256": "963b7eeb53fd1fb9c71d87722151667deb5a780973db462ff127f6ed40c0836c",
+  "overall": {
+    "actions": {
+      "denominator": 500,
+      "mean": 0.992
+    },
+    "candidate": {
+      "1": {
+        "BestPathRoundRecall": {
+          "denominator": 496,
+          "mean": 0.07560483870967742
+        },
+        "RelevantRoundF1": {
+          "denominator": 496,
+          "mean": 0.07096774193548387
+        },
+        "RelevantRoundPrecision": {
+          "denominator": 496,
+          "mean": 0.0907258064516129
+        },
+        "RelevantRoundRecall": {
+          "denominator": 496,
+          "mean": 0.06300403225806452
+        },
+        "SufficiencySuccess": {
+          "denominator": 496,
+          "mean": 0.06451612903225806
+        }
+      },
+      "10": {
+        "BestPathRoundRecall": {
+          "denominator": 496,
+          "mean": 0.5463709677419355
+        },
+        "RelevantRoundF1": {
+          "denominator": 496,
+          "mean": 0.1266293686152557
+        },
+        "RelevantRoundPrecision": {
+          "denominator": 496,
+          "mean": 0.07430555555555556
+        },
+        "RelevantRoundRecall": {
+          "denominator": 496,
+          "mean": 0.5127352150537634
+        },
+        "SufficiencySuccess": {
+          "denominator": 496,
+          "mean": 0.5201612903225806
+        }
+      },
+      "20": {
+        "BestPathRoundRecall": {
+          "denominator": 496,
+          "mean": 0.8373655913978494
+        },
+        "RelevantRoundF1": {
+          "denominator": 496,
+          "mean": 0.1374341580488033
+        },
+        "RelevantRoundPrecision": {
+          "denominator": 496,
+          "mean": 0.0768401617288689
+        },
+        "RelevantRoundRecall": {
+          "denominator": 496,
+          "mean": 0.8137096774193548
+        },
+        "SufficiencySuccess": {
+          "denominator": 496,
+          "mean": 0.8266129032258065
+        }
+      },
+      "3": {
+        "BestPathRoundRecall": {
+          "denominator": 496,
+          "mean": 0.18380376344086022
+        },
+        "RelevantRoundF1": {
+          "denominator": 496,
+          "mean": 0.10166250640040964
+        },
+        "RelevantRoundPrecision": {
+          "denominator": 496,
+          "mean": 0.07930107526881719
+        },
+        "RelevantRoundRecall": {
+          "denominator": 496,
+          "mean": 0.16337365591397848
+        },
+        "SufficiencySuccess": {
+          "denominator": 496,
+          "mean": 0.16129032258064516
+        }
+      },
+      "5": {
+        "BestPathRoundRecall": {
+          "denominator": 496,
+          "mean": 0.2970430107526882
+        },
+        "RelevantRoundF1": {
+          "denominator": 496,
+          "mean": 0.11759501699017827
+        },
+        "RelevantRoundPrecision": {
+          "denominator": 496,
+          "mean": 0.07862903225806452
+        },
+        "RelevantRoundRecall": {
+          "denominator": 496,
+          "mean": 0.2741599462365591
+        },
+        "SufficiencySuccess": {
+          "denominator": 496,
+          "mean": 0.26814516129032256
+        }
+      },
+      "50": {
+        "BestPathRoundRecall": {
+          "denominator": 496,
+          "mean": 1.0
+        },
+        "RelevantRoundF1": {
+          "denominator": 496,
+          "mean": 0.14295429433652096
+        },
+        "RelevantRoundPrecision": {
+          "denominator": 496,
+          "mean": 0.07913623250353913
+        },
+        "RelevantRoundRecall": {
+          "denominator": 496,
+          "mean": 1.0
+        },
+        "SufficiencySuccess": {
+          "denominator": 496,
+          "mean": 1.0
+        }
+      },
+      "all": {
+        "BestPathRoundRecall": {
+          "denominator": 496,
+          "mean": 1.0
+        },
+        "RelevantRoundF1": {
+          "denominator": 496,
+          "mean": 0.14295429433652096
+        },
+        "RelevantRoundPrecision": {
+          "denominator": 496,
+          "mean": 0.07913623250353913
+        },
+        "RelevantRoundRecall": {
+          "denominator": 496,
+          "mean": 1.0
+        },
+        "SufficiencySuccess": {
+          "denominator": 496,
+          "mean": 1.0
+        }
+      }
+    },
+    "candidate_sufficiency_at3_CI95": {
+      "clusters": 50,
+      "high": 0.19362186788154898,
+      "low": 0.13003663003663005
+    },
+    "ci_method": {
+      "method": "environment-cluster percentile bootstrap",
+      "note": "conditional on author Gold, not a semantic-correctness interval",
+      "repetitions": 1000,
+      "seed": 20261019
+    },
+    "injection": {
+      "BestPathRoundRecall": {
+        "denominator": 0,
+        "mean": null
+      },
+      "InjectionTokens": {
+        "denominator": 0,
+        "mean": null
+      },
+      "RelativeOverhead": {
+        "denominator": 0,
+        "mean": null
+      },
+      "RelevantRoundF1": {
+        "denominator": 0,
+        "mean": null
+      },
+      "RelevantRoundPrecision": {
+        "denominator": 0,
+        "mean": null
+      },
+      "RelevantRoundRecall": {
+        "denominator": 0,
+        "mean": null
+      },
+      "SourceClaimRecall": {
+        "denominator": 0,
+        "mean": null
+      },
+      "SpanPurity": {
+        "denominator": 0,
+        "mean": null
+      },
+      "SufficiencySuccess": {
+        "denominator": 0,
+        "mean": null
+      }
+    },
+    "injection_sufficiency_CI95": {
+      "clusters": 0,
+      "high": null,
+      "low": null
+    },
+    "latency_ms": {
+      "P50": 0.016907,
+      "P95": 0.162584,
+      "n": 500
+    },
+    "missing_outputs": 0,
+    "queries": 500,
+    "rows_with_errors": 0
+  },
+  "private_gold_sha256": "c592213c8d5144cf26cd88eb543f119c4691c944ac4237df6fcaa9987eaf607c",
+  "public_queries_sha256": "ba4b1ea96d0ac88cf3d89c892209d2acbd418a421545f9025c07becd0f81049f",
+  "requested_queries": 500,
+  "scored_queries": 500,
+  "tokenizer": {
+    "compatible_contract": "tiktoken==0.12.0/o200k_base",
+    "implementation": "reference_BPE_encode_ordinary",
+    "native_tiktoken_used": false,
+    "piece_cache_maxsize": 200000,
+    "ranks_sha256": "446a9538cb6c348e3516120d7c08b09f57c36495e2acfffe59a5bf8b0cfb1a2d",
+    "regex_version": "2026.5.9",
+    "whole_text_cache": false
+  },
+  "version": "R2-v0.5.2-author-reconstruction"
+}
